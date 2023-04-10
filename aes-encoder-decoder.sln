@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A1B9C9A-F218-4E60-95B4-A4E02FE76BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aes-encoder-decoder", "src\aes-encoder-decoder\aes-encoder-decoder.csproj", "{CD369C8A-C011-41F0-B558-6618CCAFE76B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D3AD4F6C-7621-4447-8AF0-174CD0B8E788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aes-encoder-decoder-test", "tests\aes-encoder-decoder-test\aes-encoder-decoder-test.csproj", "{158FE4A7-4128-41CB-B6B1-37338732D6FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD369C8A-C011-41F0-B558-6618CCAFE76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD369C8A-C011-41F0-B558-6618CCAFE76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD369C8A-C011-41F0-B558-6618CCAFE76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD369C8A-C011-41F0-B558-6618CCAFE76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158FE4A7-4128-41CB-B6B1-37338732D6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158FE4A7-4128-41CB-B6B1-37338732D6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158FE4A7-4128-41CB-B6B1-37338732D6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158FE4A7-4128-41CB-B6B1-37338732D6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD369C8A-C011-41F0-B558-6618CCAFE76B} = {2A1B9C9A-F218-4E60-95B4-A4E02FE76BF4}
+		{158FE4A7-4128-41CB-B6B1-37338732D6FC} = {D3AD4F6C-7621-4447-8AF0-174CD0B8E788}
+	EndGlobalSection
+EndGlobal
